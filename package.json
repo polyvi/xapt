@@ -1,0 +1,22 @@
+{
+    "name":"xapt",
+    "version":"0.0.13",
+    "description": "Validate & convert xFace application package",
+    "preferGlobal": "true",
+    "bin": { "xapt": "xapt.js" },
+    "keywords": [
+        "xface",
+        "xpa"
+    ],
+    "author": "Mark Feng",
+    "engines": { "node": "*" },
+    "dependencies":{
+        "underscore":"*",
+        "colors":">=0.6.0",
+        "xml2js":"*",
+        "validator":"*",
+        "optimist": "~0.6.0",
+        "uglify-js2":"*",
+        "adm-zip":"*"
+    }
+}
